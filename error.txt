@@ -1,0 +1,632 @@
+cmake -DCMAKE_INSTALL_PREFIX='/usr/local/Cellar/opencolorio/1.0.4' -DCMAKE_BUILD_TYPE=None -Wno-dev -DCMAKE_VERBOSE_MAKEFILE=true -DPYTHON_INCLUDE_DIR=/usr/local/Cellar/python/2.7.2/include ..
+cmake -DCMAKE_INSTALL_PREFIX='/usr/local/Cellar/opencolorio/1.0.4' -DCMAKE_BUILD_TYPE=None -Wno-dev -DCMAKE_VERBOSE_MAKEFILE=true -DPYTHON_INCLUDE_DIR=/usr/local/Cellar/python/2.7.2/include ..
+-- The C compiler identification is GNU
+-- The CXX compiler identification is GNU
+xcode-select: Error: No Xcode folder is set. Run xcode-select -switch <xcode_folder_path> to set the path to the Xcode folder.
+-- Checking whether C compiler has -isysroot
+-- Checking whether C compiler has -isysroot - yes
+-- Checking whether C compiler supports OSX deployment target flag
+-- Checking whether C compiler supports OSX deployment target flag - yes
+-- Check for working C compiler: /usr/bin/llvm-gcc
+xcode-select: Error: No Xcode folder is set. Run xcode-select -switch <xcode_folder_path> to set the path to the Xcode folder.
+-- Check for working C compiler: /usr/bin/llvm-gcc -- works
+-- Detecting C compiler ABI info
+xcode-select: Error: No Xcode folder is set. Run xcode-select -switch <xcode_folder_path> to set the path to the Xcode folder.
+-- Detecting C compiler ABI info - done
+-- Checking whether CXX compiler has -isysroot
+-- Checking whether CXX compiler has -isysroot - yes
+-- Checking whether CXX compiler supports OSX deployment target flag
+-- Checking whether CXX compiler supports OSX deployment target flag - yes
+-- Check for working CXX compiler: /usr/bin/llvm-g++
+xcode-select: Error: No Xcode folder is set. Run xcode-select -switch <xcode_folder_path> to set the path to the Xcode folder.
+-- Check for working CXX compiler: /usr/bin/llvm-g++ -- works
+-- Detecting CXX compiler ABI info
+xcode-select: Error: No Xcode folder is set. Run xcode-select -switch <xcode_folder_path> to set the path to the Xcode folder.
+-- Detecting CXX compiler ABI info - done
+-- Setting OSX Architectures to: x86_64
+-- Setting Build Type to: None
+-- Setting Namespace to: OpenColorIO
+-- Exec prefix not specified, defaulting to /usr/local/Cellar/opencolorio/1.0.4
+-- Use Boost Ptr: OFF
+-- Setting python bin to: python
+Python library: /usr/local/Cellar/python/2.7.2/lib/python2.7/config/libpython2.7.a
+-- Setting EXTDIST_BINPATH: /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/ext/dist/bin
+-- Setting EXTDIST_PYTHONPATH: /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/ext/dist/lib/python2.7/site-packages
+-- Generate Documentation: OFF
+-- SSE Optimizations: ON
+-- Could NOT find Truelight (missing:  Truelight_INCLUDE_DIR Truelight_LIBRARIES Truelight_LIBRARY_DIR) 
+-- Not building truelight transform support. Add the flag -D TRUELIGHT_INSTALL_PATH=... or set the TRUELIGHT_ROOT environment variable
+-- Create OpenColorABI.h from OpenColorABI.h.in
+-- Setting OCIO SOVERSION to: 1
+-- Setting OCIO SOVERSION to: 1
+-- Create OpenColorIO.pc from OpenColorIO.pc.in
+-- Build Unit Tests: OFF
+-- OIIO not found. Specify OIIO_PATH to locate it
+-- Found OpenGL: /System/Library/Frameworks/OpenGL.framework 
+-- Found OpenGL library /System/Library/Frameworks/AGL.framework;/System/Library/Frameworks/OpenGL.framework
+-- Found OpenGL includes /System/Library/Frameworks/OpenGL.framework
+-- Found GLUT library -framework GLUT;-framework Cocoa
+-- Found GLEW library /usr/local/lib/libGLEW.dylib
+-- Found GLEW includes /usr/local/include
+-- Not building ocioconvert. Requirement(s) found: OIIO:FALSE
+-- Not building ociodisplay. Requirement(s) found, OpenGL:TRUE, GLUT:YES, GLEW:TRUE, OIIO:FALSE
+-- Could NOT find Nuke (missing:  Nuke_INCLUDE_DIR Nuke_LIBRARIES Nuke_LIBRARY_DIR) 
+-- Not building Nuke plugins. Add the flag -D NUKE_INSTALL_PATH=... or set the NDK_PATH environment variable
+-- Python library to include 'lib' prefix: NO
+-- Python 2.7 okay (UCS: ucs2), will build the Python bindings against /usr/local/Cellar/python/2.7.2/include/python2.7;/usr/local/Cellar/python/2.7.2/include
+-- Python variant path is lib
+-- Found PythonLibs: /usr/local/Cellar/python/2.7.2/lib/python2.7/config/libpython2.7.a 
+-- Linking python bindings against: /usr/local/Cellar/python/2.7.2/lib/python2.7/config/libpython2.7.a
+-- Python library dirs: /usr/local/Cellar/python/2.7.2/lib/python2.7/config
+PYTHON_VARIANT_PATH: lib
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild
+==> make -j 1
+make -j 1 
+/usr/local/Cellar/cmake/2.8.7/bin/cmake -H/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440 -B/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/local/Cellar/cmake/2.8.7/bin/cmake -E cmake_progress_start /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/CMakeFiles /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/CMakeFiles/progress.marks
+make -f CMakeFiles/Makefile2 all
+make -f CMakeFiles/YAML_CPP_LOCAL.dir/build.make CMakeFiles/YAML_CPP_LOCAL.dir/depend
+cd /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild && /usr/local/Cellar/cmake/2.8.7/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440 /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440 /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/CMakeFiles/YAML_CPP_LOCAL.dir/DependInfo.cmake --color=
+Scanning dependencies of target YAML_CPP_LOCAL
+make -f CMakeFiles/YAML_CPP_LOCAL.dir/build.make CMakeFiles/YAML_CPP_LOCAL.dir/build
+/usr/local/Cellar/cmake/2.8.7/bin/cmake -E cmake_progress_report /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/CMakeFiles 86
+[  1%] Creating directories for 'YAML_CPP_LOCAL'
+/usr/local/Cellar/cmake/2.8.7/bin/cmake -E make_directory /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/YAML_CPP_LOCAL-prefix/src/YAML_CPP_LOCAL
+/usr/local/Cellar/cmake/2.8.7/bin/cmake -E make_directory /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/ext/build/yaml-cpp
+/usr/local/Cellar/cmake/2.8.7/bin/cmake -E make_directory /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/ext/dist
+/usr/local/Cellar/cmake/2.8.7/bin/cmake -E make_directory /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/YAML_CPP_LOCAL-prefix/tmp
+/usr/local/Cellar/cmake/2.8.7/bin/cmake -E make_directory /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/YAML_CPP_LOCAL-prefix/src/YAML_CPP_LOCAL-stamp
+/usr/local/Cellar/cmake/2.8.7/bin/cmake -E make_directory /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/YAML_CPP_LOCAL-prefix/src
+/usr/local/Cellar/cmake/2.8.7/bin/cmake -E touch /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/YAML_CPP_LOCAL-prefix/src/YAML_CPP_LOCAL-stamp/YAML_CPP_LOCAL-mkdir
+/usr/local/Cellar/cmake/2.8.7/bin/cmake -E cmake_progress_report /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/CMakeFiles 87
+[  2%] Performing download step (verify and extract) for 'YAML_CPP_LOCAL'
+cd /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/YAML_CPP_LOCAL-prefix/src && /usr/local/Cellar/cmake/2.8.7/bin/cmake -P /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/YAML_CPP_LOCAL-prefix/src/YAML_CPP_LOCAL-stamp/verify-YAML_CPP_LOCAL.cmake /usr/local/Cellar/cmake/2.8.7/bin/cmake -P /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/YAML_CPP_LOCAL-prefix/src/YAML_CPP_LOCAL-stamp/extract-YAML_CPP_LOCAL.cmake
+-- verifying file...
+     file='/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/ext/yaml-cpp-r482.tar.gz'
+-- verifying file... warning: did not verify file - no URL_MD5 checksum argument? corrupt file?
+-- extracting...
+     src='/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/ext/yaml-cpp-r482.tar.gz'
+     dst='/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/YAML_CPP_LOCAL-prefix/src/YAML_CPP_LOCAL'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+cd /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/YAML_CPP_LOCAL-prefix/src && /usr/local/Cellar/cmake/2.8.7/bin/cmake -E touch /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/YAML_CPP_LOCAL-prefix/src/YAML_CPP_LOCAL-stamp/YAML_CPP_LOCAL-download
+/usr/local/Cellar/cmake/2.8.7/bin/cmake -E cmake_progress_report /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/CMakeFiles 88
+[  3%] Performing patch step for 'YAML_CPP_LOCAL'
+cd /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/YAML_CPP_LOCAL-prefix/src/YAML_CPP_LOCAL && patch -p1 < /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/ext/yaml-cpp-r482.patch
+patching file CMakeLists.txt
+patching file src/emitter.cpp
+cd /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/YAML_CPP_LOCAL-prefix/src/YAML_CPP_LOCAL && /usr/local/Cellar/cmake/2.8.7/bin/cmake -E touch /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/YAML_CPP_LOCAL-prefix/src/YAML_CPP_LOCAL-stamp/YAML_CPP_LOCAL-patch
+/usr/local/Cellar/cmake/2.8.7/bin/cmake -E cmake_progress_report /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/CMakeFiles 
+[  3%] No update step for 'YAML_CPP_LOCAL'
+/usr/local/Cellar/cmake/2.8.7/bin/cmake -E touch /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/YAML_CPP_LOCAL-prefix/src/YAML_CPP_LOCAL-stamp/YAML_CPP_LOCAL-update
+/usr/local/Cellar/cmake/2.8.7/bin/cmake -E cmake_progress_report /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/CMakeFiles 
+[  3%] Performing configure step for 'YAML_CPP_LOCAL'
+cd /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/ext/build/yaml-cpp && /usr/local/Cellar/cmake/2.8.7/bin/cmake -DCMAKE_INSTALL_PREFIX=/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/ext/dist -DYAML_CPP_BUILD_TOOLS:BOOL=FALSE "-GUnix Makefiles" /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/YAML_CPP_LOCAL-prefix/src/YAML_CPP_LOCAL
+-- The C compiler identification is GNU
+-- The CXX compiler identification is GNU
+xcode-select: Error: No Xcode folder is set. Run xcode-select -switch <xcode_folder_path> to set the path to the Xcode folder.
+-- Checking whether C compiler has -isysroot
+-- Checking whether C compiler has -isysroot - yes
+-- Checking whether C compiler supports OSX deployment target flag
+-- Checking whether C compiler supports OSX deployment target flag - yes
+-- Check for working C compiler: /usr/bin/llvm-gcc
+xcode-select: Error: No Xcode folder is set. Run xcode-select -switch <xcode_folder_path> to set the path to the Xcode folder.
+-- Check for working C compiler: /usr/bin/llvm-gcc -- works
+-- Detecting C compiler ABI info
+xcode-select: Error: No Xcode folder is set. Run xcode-select -switch <xcode_folder_path> to set the path to the Xcode folder.
+-- Detecting C compiler ABI info - done
+-- Checking whether CXX compiler has -isysroot
+-- Checking whether CXX compiler has -isysroot - yes
+-- Checking whether CXX compiler supports OSX deployment target flag
+-- Checking whether CXX compiler supports OSX deployment target flag - yes
+-- Check for working CXX compiler: /usr/bin/llvm-g++
+xcode-select: Error: No Xcode folder is set. Run xcode-select -switch <xcode_folder_path> to set the path to the Xcode folder.
+-- Check for working CXX compiler: /usr/bin/llvm-g++ -- works
+-- Detecting CXX compiler ABI info
+xcode-select: Error: No Xcode folder is set. Run xcode-select -switch <xcode_folder_path> to set the path to the Xcode folder.
+-- Detecting CXX compiler ABI info - done
+-- Performing Test FLAG_WEXTRA
+xcode-select: Error: No Xcode folder is set. Run xcode-select -switch <xcode_folder_path> to set the path to the Xcode folder.
+-- Performing Test FLAG_WEXTRA - Success
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/ext/build/yaml-cpp
+cd /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/ext/build/yaml-cpp && /usr/local/Cellar/cmake/2.8.7/bin/cmake -E touch /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/YAML_CPP_LOCAL-prefix/src/YAML_CPP_LOCAL-stamp/YAML_CPP_LOCAL-configure
+/usr/local/Cellar/cmake/2.8.7/bin/cmake -E cmake_progress_report /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/CMakeFiles 89
+[  4%] Performing build step for 'YAML_CPP_LOCAL'
+cd /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/ext/build/yaml-cpp && make
+Scanning dependencies of target yaml-cpp
+[  3%] Building CXX object CMakeFiles/yaml-cpp.dir/src/aliasmanager.cpp.o
+[  7%] Building CXX object CMakeFiles/yaml-cpp.dir/src/conversion.cpp.o
+[ 11%] Building CXX object CMakeFiles/yaml-cpp.dir/src/directives.cpp.o
+[ 15%] Building CXX object CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.o
+[ 19%] Building CXX object CMakeFiles/yaml-cpp.dir/src/emitter.cpp.o
+[ 23%] Building CXX object CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.o
+[ 26%] Building CXX object CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.o
+[ 30%] Building CXX object CMakeFiles/yaml-cpp.dir/src/exp.cpp.o
+[ 34%] Building CXX object CMakeFiles/yaml-cpp.dir/src/iterator.cpp.o
+[ 38%] Building CXX object CMakeFiles/yaml-cpp.dir/src/node.cpp.o
+[ 42%] Building CXX object CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.o
+[ 46%] Building CXX object CMakeFiles/yaml-cpp.dir/src/nodeownership.cpp.o
+[ 50%] Building CXX object CMakeFiles/yaml-cpp.dir/src/null.cpp.o
+[ 53%] Building CXX object CMakeFiles/yaml-cpp.dir/src/ostream.cpp.o
+[ 57%] Building CXX object CMakeFiles/yaml-cpp.dir/src/parser.cpp.o
+[ 61%] Building CXX object CMakeFiles/yaml-cpp.dir/src/regex.cpp.o
+[ 65%] Building CXX object CMakeFiles/yaml-cpp.dir/src/scanner.cpp.o
+[ 69%] Building CXX object CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.o
+[ 73%] Building CXX object CMakeFiles/yaml-cpp.dir/src/scantag.cpp.o
+[ 76%] Building CXX object CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.o
+[ 80%] Building CXX object CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.o
+[ 84%] Building CXX object CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.o
+[ 88%] Building CXX object CMakeFiles/yaml-cpp.dir/src/stream.cpp.o
+[ 92%] Building CXX object CMakeFiles/yaml-cpp.dir/src/tag.cpp.o
+[ 96%] Building CXX object CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.o
+[100%] Building CXX object CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.o
+Linking CXX static library libyaml-cpp.a
+[100%] Built target yaml-cpp
+cd /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/ext/build/yaml-cpp && /usr/local/Cellar/cmake/2.8.7/bin/cmake -E touch /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/YAML_CPP_LOCAL-prefix/src/YAML_CPP_LOCAL-stamp/YAML_CPP_LOCAL-build
+/usr/local/Cellar/cmake/2.8.7/bin/cmake -E cmake_progress_report /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/CMakeFiles 
+[  4%] Performing install step for 'YAML_CPP_LOCAL'
+cd /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/ext/build/yaml-cpp && make install
+[100%] Built target yaml-cpp
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/ext/dist/lib/libyaml-cpp.a
+-- Installing: /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/ext/dist/include/yaml-cpp/aliasmanager.h
+-- Installing: /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/ext/dist/include/yaml-cpp/anchor.h
+-- Installing: /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/ext/dist/include/yaml-cpp/conversion.h
+-- Installing: /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/ext/dist/include/yaml-cpp/dll.h
+-- Installing: /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/ext/dist/include/yaml-cpp/emitfromevents.h
+-- Installing: /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/ext/dist/include/yaml-cpp/emitter.h
+-- Installing: /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/ext/dist/include/yaml-cpp/emittermanip.h
+-- Installing: /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/ext/dist/include/yaml-cpp/eventhandler.h
+-- Installing: /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/ext/dist/include/yaml-cpp/exceptions.h
+-- Installing: /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/ext/dist/include/yaml-cpp/iterator.h
+-- Installing: /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/ext/dist/include/yaml-cpp/ltnode.h
+-- Installing: /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/ext/dist/include/yaml-cpp/mark.h
+-- Installing: /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/ext/dist/include/yaml-cpp/node.h
+-- Installing: /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/ext/dist/include/yaml-cpp/nodeimpl.h
+-- Installing: /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/ext/dist/include/yaml-cpp/nodereadimpl.h
+-- Installing: /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/ext/dist/include/yaml-cpp/nodeutil.h
+-- Installing: /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/ext/dist/include/yaml-cpp/noncopyable.h
+-- Installing: /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/ext/dist/include/yaml-cpp/null.h
+-- Installing: /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/ext/dist/include/yaml-cpp/ostream.h
+-- Installing: /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/ext/dist/include/yaml-cpp/parser.h
+-- Installing: /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/ext/dist/include/yaml-cpp/stlemitter.h
+-- Installing: /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/ext/dist/include/yaml-cpp/stlnode.h
+-- Installing: /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/ext/dist/include/yaml-cpp/traits.h
+-- Installing: /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/ext/dist/include/yaml-cpp/yaml.h
+-- Installing: /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/ext/dist/include/yaml-cpp/anchordict.h
+-- Installing: /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/ext/dist/include/yaml-cpp/graphbuilder.h
+-- Installing: /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/ext/dist/lib/pkgconfig/yaml-cpp.pc
+cd /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/ext/build/yaml-cpp && /usr/local/Cellar/cmake/2.8.7/bin/cmake -E touch /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/YAML_CPP_LOCAL-prefix/src/YAML_CPP_LOCAL-stamp/YAML_CPP_LOCAL-install
+/usr/local/Cellar/cmake/2.8.7/bin/cmake -E cmake_progress_report /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/CMakeFiles 85
+[  5%] Completed 'YAML_CPP_LOCAL'
+/usr/local/Cellar/cmake/2.8.7/bin/cmake -E make_directory /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/CMakeFiles
+/usr/local/Cellar/cmake/2.8.7/bin/cmake -E touch /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/CMakeFiles/YAML_CPP_LOCAL-complete
+/usr/local/Cellar/cmake/2.8.7/bin/cmake -E touch /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/YAML_CPP_LOCAL-prefix/src/YAML_CPP_LOCAL-stamp/YAML_CPP_LOCAL-done
+/usr/local/Cellar/cmake/2.8.7/bin/cmake -E cmake_progress_report /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/CMakeFiles  85 86 87 88 89
+[  5%] Built target YAML_CPP_LOCAL
+make -f CMakeFiles/tinyxml.dir/build.make CMakeFiles/tinyxml.dir/depend
+cd /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild && /usr/local/Cellar/cmake/2.8.7/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440 /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440 /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/CMakeFiles/tinyxml.dir/DependInfo.cmake --color=
+Scanning dependencies of target tinyxml
+make -f CMakeFiles/tinyxml.dir/build.make CMakeFiles/tinyxml.dir/build
+/usr/local/Cellar/cmake/2.8.7/bin/cmake -E cmake_progress_report /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/CMakeFiles 
+[  5%] Creating directories for 'tinyxml'
+/usr/local/Cellar/cmake/2.8.7/bin/cmake -E make_directory /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/tinyxml-prefix/src/tinyxml
+/usr/local/Cellar/cmake/2.8.7/bin/cmake -E make_directory /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/ext/build/tinyxml
+/usr/local/Cellar/cmake/2.8.7/bin/cmake -E make_directory /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/ext/dist
+/usr/local/Cellar/cmake/2.8.7/bin/cmake -E make_directory /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/tinyxml-prefix/tmp
+/usr/local/Cellar/cmake/2.8.7/bin/cmake -E make_directory /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/tinyxml-prefix/src/tinyxml-stamp
+/usr/local/Cellar/cmake/2.8.7/bin/cmake -E make_directory /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/tinyxml-prefix/src
+/usr/local/Cellar/cmake/2.8.7/bin/cmake -E touch /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/tinyxml-prefix/src/tinyxml-stamp/tinyxml-mkdir
+/usr/local/Cellar/cmake/2.8.7/bin/cmake -E cmake_progress_report /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/CMakeFiles 97
+[  6%] Performing download step (verify and extract) for 'tinyxml'
+cd /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/tinyxml-prefix/src && /usr/local/Cellar/cmake/2.8.7/bin/cmake -P /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/tinyxml-prefix/src/tinyxml-stamp/verify-tinyxml.cmake /usr/local/Cellar/cmake/2.8.7/bin/cmake -P /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/tinyxml-prefix/src/tinyxml-stamp/extract-tinyxml.cmake
+-- verifying file...
+     file='/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/ext/tinyxml_2_6_1.tar.gz'
+-- verifying file... warning: did not verify file - no URL_MD5 checksum argument? corrupt file?
+-- extracting...
+     src='/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/ext/tinyxml_2_6_1.tar.gz'
+     dst='/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/tinyxml-prefix/src/tinyxml'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+cd /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/tinyxml-prefix/src && /usr/local/Cellar/cmake/2.8.7/bin/cmake -E touch /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/tinyxml-prefix/src/tinyxml-stamp/tinyxml-download
+/usr/local/Cellar/cmake/2.8.7/bin/cmake -E cmake_progress_report /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/CMakeFiles 
+[  6%] Performing patch step for 'tinyxml'
+cd /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/tinyxml-prefix/src/tinyxml && patch -f -p1 < /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/ext/tinyxml_2_6_1.patch
+patching file CMakeLists.txt
+cd /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/tinyxml-prefix/src/tinyxml && /usr/local/Cellar/cmake/2.8.7/bin/cmake -E touch /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/tinyxml-prefix/src/tinyxml-stamp/tinyxml-patch
+/usr/local/Cellar/cmake/2.8.7/bin/cmake -E cmake_progress_report /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/CMakeFiles 98
+[  7%] No update step for 'tinyxml'
+/usr/local/Cellar/cmake/2.8.7/bin/cmake -E touch /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/tinyxml-prefix/src/tinyxml-stamp/tinyxml-update
+/usr/local/Cellar/cmake/2.8.7/bin/cmake -E cmake_progress_report /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/CMakeFiles 99
+[  8%] Performing configure step for 'tinyxml'
+cd /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/ext/build/tinyxml && /usr/local/Cellar/cmake/2.8.7/bin/cmake -DCMAKE_INSTALL_PREFIX=/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/ext/dist "-GUnix Makefiles" /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/tinyxml-prefix/src/tinyxml
+-- The C compiler identification is GNU
+-- The CXX compiler identification is GNU
+xcode-select: Error: No Xcode folder is set. Run xcode-select -switch <xcode_folder_path> to set the path to the Xcode folder.
+-- Checking whether C compiler has -isysroot
+-- Checking whether C compiler has -isysroot - yes
+-- Checking whether C compiler supports OSX deployment target flag
+-- Checking whether C compiler supports OSX deployment target flag - yes
+-- Check for working C compiler: /usr/bin/llvm-gcc
+xcode-select: Error: No Xcode folder is set. Run xcode-select -switch <xcode_folder_path> to set the path to the Xcode folder.
+-- Check for working C compiler: /usr/bin/llvm-gcc -- works
+-- Detecting C compiler ABI info
+xcode-select: Error: No Xcode folder is set. Run xcode-select -switch <xcode_folder_path> to set the path to the Xcode folder.
+-- Detecting C compiler ABI info - done
+-- Checking whether CXX compiler has -isysroot
+-- Checking whether CXX compiler has -isysroot - yes
+-- Checking whether CXX compiler supports OSX deployment target flag
+-- Checking whether CXX compiler supports OSX deployment target flag - yes
+-- Check for working CXX compiler: /usr/bin/llvm-g++
+xcode-select: Error: No Xcode folder is set. Run xcode-select -switch <xcode_folder_path> to set the path to the Xcode folder.
+-- Check for working CXX compiler: /usr/bin/llvm-g++ -- works
+-- Detecting CXX compiler ABI info
+xcode-select: Error: No Xcode folder is set. Run xcode-select -switch <xcode_folder_path> to set the path to the Xcode folder.
+-- Detecting CXX compiler ABI info - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/ext/build/tinyxml
+cd /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/ext/build/tinyxml && /usr/local/Cellar/cmake/2.8.7/bin/cmake -E touch /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/tinyxml-prefix/src/tinyxml-stamp/tinyxml-configure
+/usr/local/Cellar/cmake/2.8.7/bin/cmake -E cmake_progress_report /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/CMakeFiles 100
+[  9%] Performing build step for 'tinyxml'
+cd /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/ext/build/tinyxml && make
+Scanning dependencies of target tinyxml
+[ 25%] Building CXX object CMakeFiles/tinyxml.dir/tinystr.cpp.o
+[ 50%] Building CXX object CMakeFiles/tinyxml.dir/tinyxml.cpp.o
+[ 75%] Building CXX object CMakeFiles/tinyxml.dir/tinyxmlerror.cpp.o
+[100%] Building CXX object CMakeFiles/tinyxml.dir/tinyxmlparser.cpp.o
+Linking CXX static library libtinyxml.a
+/usr/bin/ranlib: file: libtinyxml.a(tinystr.cpp.o) has no symbols
+/usr/bin/ranlib: file: libtinyxml.a(tinystr.cpp.o) has no symbols
+[100%] Built target tinyxml
+cd /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/ext/build/tinyxml && /usr/local/Cellar/cmake/2.8.7/bin/cmake -E touch /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/tinyxml-prefix/src/tinyxml-stamp/tinyxml-build
+/usr/local/Cellar/cmake/2.8.7/bin/cmake -E cmake_progress_report /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/CMakeFiles 96
+[ 10%] Performing install step for 'tinyxml'
+cd /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/ext/build/tinyxml && make install
+[100%] Built target tinyxml
+Install the project...
+-- Install configuration: ""
+-- Installing: /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/ext/dist/lib/libtinyxml.a
+/usr/bin/ranlib: file: /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/ext/dist/lib/libtinyxml.a(tinystr.cpp.o) has no symbols
+-- Installing: /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/ext/dist/include/tinyxml.h
+-- Installing: /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/ext/dist/include/tinystr.h
+cd /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/ext/build/tinyxml && /usr/local/Cellar/cmake/2.8.7/bin/cmake -E touch /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/tinyxml-prefix/src/tinyxml-stamp/tinyxml-install
+/usr/local/Cellar/cmake/2.8.7/bin/cmake -E cmake_progress_report /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/CMakeFiles 95
+[ 11%] Completed 'tinyxml'
+/usr/local/Cellar/cmake/2.8.7/bin/cmake -E make_directory /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/CMakeFiles
+/usr/local/Cellar/cmake/2.8.7/bin/cmake -E touch /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/CMakeFiles/tinyxml-complete
+/usr/local/Cellar/cmake/2.8.7/bin/cmake -E touch /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/tinyxml-prefix/src/tinyxml-stamp/tinyxml-done
+/usr/local/Cellar/cmake/2.8.7/bin/cmake -E cmake_progress_report /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/CMakeFiles  95 96 97 98 99 100
+[ 11%] Built target tinyxml
+make -f src/core/CMakeFiles/OpenColorIO.dir/build.make src/core/CMakeFiles/OpenColorIO.dir/depend
+cd /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild && /usr/local/Cellar/cmake/2.8.7/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440 /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/src/core /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/src/core/CMakeFiles/OpenColorIO.dir/DependInfo.cmake --color=
+Scanning dependencies of target OpenColorIO
+make -f src/core/CMakeFiles/OpenColorIO.dir/build.make src/core/CMakeFiles/OpenColorIO.dir/build
+/usr/local/Cellar/cmake/2.8.7/bin/cmake -E cmake_progress_report /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/CMakeFiles 
+[ 11%] Building CXX object src/core/CMakeFiles/OpenColorIO.dir/AllocationOp.cpp.o
+cd /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/src/core && /usr/bin/llvm-g++   -DOpenColorIO_EXPORTS -DUSE_SSE -Os -w -pipe -march=core2 -msse4  -Wall -Wextra -Wshadow -Wconversion -Wcast-qual -Wformat=2 -msse2 -arch x86_64 -isysroot /SDKs/MacOSX10.7.sdk -fPIC -I/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export -I/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/export -I/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/ext/dist/include -I/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/ext/oiio/src/include    -DTIXML_USE_STL -fPIC -fvisibility-inlines-hidden -fvisibility=hidden -o CMakeFiles/OpenColorIO.dir/AllocationOp.cpp.o -c /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/AllocationOp.cpp
+In file included from /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/AllocationOp.h:33,
+                 from /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/AllocationOp.cpp:29:
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:33:21: error: exception: No such file or directory
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:34:18: error: iosfwd: No such file or directory
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:35:18: error: string: No such file or directory
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:36:19: error: cstddef: No such file or directory
+In file included from /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:38,
+                 from /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/AllocationOp.h:33,
+                 from /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/AllocationOp.cpp:29:
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/macbuild/export/OpenColorABI.h:59:22: error: tr1/memory: No such file or directory
+In file included from /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:39,
+                 from /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/AllocationOp.h:33,
+                 from /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/AllocationOp.cpp:29:
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:39:18: error: limits: No such file or directory
+In file included from /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/AllocationOp.h:35,
+                 from /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/AllocationOp.cpp:29:
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/Op.h:35:19: error: sstream: No such file or directory
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/Op.h:36:18: error: vector: No such file or directory
+In file included from /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:39,
+                 from /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/AllocationOp.h:33,
+                 from /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/AllocationOp.cpp:29:
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:57: error: ‘std::tr1’ has not been declared
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:57: error: expected initializer before ‘<’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:59: error: ‘std::tr1’ has not been declared
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:59: error: expected initializer before ‘<’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:63: error: ‘std::tr1’ has not been declared
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:63: error: expected initializer before ‘<’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:65: error: ‘std::tr1’ has not been declared
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:65: error: expected initializer before ‘<’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:69: error: ‘std::tr1’ has not been declared
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:69: error: expected initializer before ‘<’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:71: error: ‘std::tr1’ has not been declared
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:71: error: expected initializer before ‘<’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:75: error: ‘std::tr1’ has not been declared
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:75: error: expected initializer before ‘<’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:77: error: ‘std::tr1’ has not been declared
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:77: error: expected initializer before ‘<’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:81: error: ‘std::tr1’ has not been declared
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:81: error: expected initializer before ‘<’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:83: error: ‘std::tr1’ has not been declared
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:83: error: expected initializer before ‘<’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:87: error: ‘std::tr1’ has not been declared
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:87: error: expected initializer before ‘<’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:89: error: ‘std::tr1’ has not been declared
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:89: error: expected initializer before ‘<’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:102: error: ‘std::tr1’ has not been declared
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:102: error: expected initializer before ‘<’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:104: error: ‘std::tr1’ has not been declared
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:104: error: expected initializer before ‘<’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:108: error: ‘std::tr1’ has not been declared
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:108: error: expected initializer before ‘<’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:110: error: ‘std::tr1’ has not been declared
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:110: error: expected initializer before ‘<’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:114: error: ‘std::tr1’ has not been declared
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:114: error: expected initializer before ‘<’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:116: error: ‘std::tr1’ has not been declared
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:116: error: expected initializer before ‘<’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:120: error: ‘std::tr1’ has not been declared
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:120: error: expected initializer before ‘<’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:122: error: ‘std::tr1’ has not been declared
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:122: error: expected initializer before ‘<’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:126: error: ‘std::tr1’ has not been declared
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:126: error: expected initializer before ‘<’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:128: error: ‘std::tr1’ has not been declared
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:128: error: expected initializer before ‘<’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:132: error: ‘std::tr1’ has not been declared
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:132: error: expected initializer before ‘<’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:134: error: ‘std::tr1’ has not been declared
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:134: error: expected initializer before ‘<’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:138: error: ‘std::tr1’ has not been declared
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:138: error: expected initializer before ‘<’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:140: error: ‘std::tr1’ has not been declared
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:140: error: expected initializer before ‘<’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:144: error: ‘std::tr1’ has not been declared
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:144: error: expected initializer before ‘<’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:146: error: ‘std::tr1’ has not been declared
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:146: error: expected initializer before ‘<’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:150: error: ‘std::tr1’ has not been declared
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:150: error: expected initializer before ‘<’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:152: error: ‘std::tr1’ has not been declared
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:152: error: expected initializer before ‘<’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:156: error: ‘std::tr1’ has not been declared
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:156: error: expected initializer before ‘<’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:158: error: ‘std::tr1’ has not been declared
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:158: error: expected initializer before ‘<’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:162: error: ‘std::tr1’ has not been declared
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:162: error: expected initializer before ‘<’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:164: error: ‘std::tr1’ has not been declared
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:164: error: expected initializer before ‘<’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:168: error: ‘std::tr1’ has not been declared
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:168: error: expected initializer before ‘<’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:170: error: ‘std::tr1’ has not been declared
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:170: error: expected initializer before ‘<’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:173: error: ‘std::tr1’ has not been declared
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTypes.h:173: error: expected initializer before ‘<’ token
+In file included from /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:40,
+                 from /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/AllocationOp.h:33,
+                 from /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/AllocationOp.cpp:29:
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTransforms.h:56: error: ‘TransformRcPtr’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTransforms.h:66: error: expected initializer before ‘&’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTransforms.h:77: error: ‘AllocationTransformRcPtr’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTransforms.h:80: error: ‘TransformRcPtr’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTransforms.h:116: error: expected initializer before ‘&’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTransforms.h:131: error: ‘CDLTransformRcPtr’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTransforms.h:138: error: ‘CDLTransformRcPtr’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTransforms.h:141: error: ‘TransformRcPtr’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTransforms.h:149: error: expected ‘,’ or ‘...’ before ‘&’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTransforms.h:149: error: ISO C++ forbids declaration of ‘ConstCDLTransformRcPtr’ with no type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTransforms.h:226: error: expected initializer before ‘&’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTransforms.h:236: error: ‘ColorSpaceTransformRcPtr’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTransforms.h:239: error: ‘TransformRcPtr’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTransforms.h:273: error: expected initializer before ‘&’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTransforms.h:283: error: ‘DisplayTransformRcPtr’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTransforms.h:286: error: ‘TransformRcPtr’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTransforms.h:302: error: expected ‘,’ or ‘...’ before ‘&’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTransforms.h:302: error: ISO C++ forbids declaration of ‘ConstTransformRcPtr’ with no type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTransforms.h:304: error: ‘ConstTransformRcPtr’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTransforms.h:307: error: expected ‘,’ or ‘...’ before ‘&’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTransforms.h:307: error: ISO C++ forbids declaration of ‘ConstTransformRcPtr’ with no type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTransforms.h:309: error: ‘ConstTransformRcPtr’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTransforms.h:312: error: expected ‘,’ or ‘...’ before ‘&’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTransforms.h:312: error: ISO C++ forbids declaration of ‘ConstTransformRcPtr’ with no type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTransforms.h:314: error: ‘ConstTransformRcPtr’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTransforms.h:328: error: expected ‘,’ or ‘...’ before ‘&’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTransforms.h:328: error: ISO C++ forbids declaration of ‘ConstTransformRcPtr’ with no type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTransforms.h:330: error: ‘ConstTransformRcPtr’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTransforms.h:376: error: expected initializer before ‘&’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTransforms.h:389: error: ‘ExponentTransformRcPtr’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTransforms.h:392: error: ‘TransformRcPtr’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTransforms.h:421: error: expected initializer before ‘&’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTransforms.h:431: error: ‘FileTransformRcPtr’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTransforms.h:434: error: ‘TransformRcPtr’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTransforms.h:483: error: expected initializer before ‘&’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTransforms.h:493: error: ‘GroupTransformRcPtr’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTransforms.h:496: error: ‘TransformRcPtr’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTransforms.h:504: error: ‘ConstTransformRcPtr’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTransforms.h:509: error: expected ‘,’ or ‘...’ before ‘&’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTransforms.h:509: error: ISO C++ forbids declaration of ‘ConstTransformRcPtr’ with no type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTransforms.h:532: error: expected initializer before ‘&’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTransforms.h:546: error: ‘LogTransformRcPtr’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTransforms.h:549: error: ‘TransformRcPtr’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTransforms.h:578: error: expected initializer before ‘&’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTransforms.h:590: error: ‘LookTransformRcPtr’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTransforms.h:593: error: ‘TransformRcPtr’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTransforms.h:635: error: expected initializer before ‘&’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTransforms.h:647: error: ‘MatrixTransformRcPtr’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTransforms.h:650: error: ‘TransformRcPtr’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTransforms.h:721: error: expected initializer before ‘&’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTransforms.h:730: error: ‘TruelightTransformRcPtr’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTransforms.h:733: error: ‘TransformRcPtr’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorTransforms.h:807: error: expected initializer before ‘&’ token
+In file included from /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/AllocationOp.h:33,
+                 from /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/AllocationOp.cpp:29:
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:88: error: expected class-name before ‘{’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:102: error: ‘string’ in namespace ‘std’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:196: error: ‘ConstConfigRcPtr’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:201: error: expected ‘,’ or ‘...’ before ‘&’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:201: error: ISO C++ forbids declaration of ‘ConstConfigRcPtr’ with no type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:216: error: ‘ConfigRcPtr’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:218: error: ‘ConstConfigRcPtr’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:220: error: ‘ConstConfigRcPtr’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:222: error: ‘ConstConfigRcPtr’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:225: error: ‘ConfigRcPtr’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:239: error: ‘std::ostream’ has not been declared
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:254: error: expected ‘,’ or ‘...’ before ‘&’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:254: error: ISO C++ forbids declaration of ‘ConstContextRcPtr’ with no type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:264: error: ‘ConstContextRcPtr’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:292: error: ‘ConstColorSpaceRcPtr’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:301: error: expected ‘,’ or ‘...’ before ‘&’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:301: error: ISO C++ forbids declaration of ‘ConstColorSpaceRcPtr’ with no type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:436: error: ‘ConstLookRcPtr’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:445: error: expected ‘,’ or ‘...’ before ‘&’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:445: error: ISO C++ forbids declaration of ‘ConstLookRcPtr’ with no type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:472: error: ‘ConstProcessorRcPtr’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:476: error: ‘ConstProcessorRcPtr’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:482: error: ‘ConstProcessorRcPtr’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:485: error: ‘ConstProcessorRcPtr’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:495: error: ‘ConstProcessorRcPtr’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:497: error: ‘ConstProcessorRcPtr’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:500: error: ‘ConstProcessorRcPtr’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:520: error: expected initializer before ‘&’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:546: error: ‘ColorSpaceRcPtr’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:549: error: ‘ColorSpaceRcPtr’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:640: error: ‘ConstTransformRcPtr’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:644: error: expected ‘,’ or ‘...’ before ‘&’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:645: error: ISO C++ forbids declaration of ‘ConstTransformRcPtr’ with no type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:663: error: expected initializer before ‘&’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:686: error: ‘LookRcPtr’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:689: error: ‘LookRcPtr’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:702: error: ‘ConstTransformRcPtr’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:704: error: expected ‘,’ or ‘...’ before ‘&’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:704: error: ISO C++ forbids declaration of ‘ConstTransformRcPtr’ with no type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:707: error: ‘ConstTransformRcPtr’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:709: error: expected ‘,’ or ‘...’ before ‘&’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:709: error: ISO C++ forbids declaration of ‘ConstTransformRcPtr’ with no type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:726: error: expected initializer before ‘&’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:739: error: ‘ProcessorRcPtr’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:844: error: ‘BakerRcPtr’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:847: error: ‘BakerRcPtr’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:850: error: expected ‘,’ or ‘...’ before ‘&’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:850: error: ISO C++ forbids declaration of ‘ConstConfigRcPtr’ with no type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:852: error: ‘ConstConfigRcPtr’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:904: error: ‘std::ostream’ has not been declared
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:940: error: ‘ptrdiff_t’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:956: error: expected initializer before ‘&’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:977: error: ‘ptrdiff_t’ has not been declared
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:978: error: ‘ptrdiff_t’ has not been declared
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:979: error: ‘ptrdiff_t’ has not been declared
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:994: error: ‘ptrdiff_t’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:996: error: ‘ptrdiff_t’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:998: error: ‘ptrdiff_t’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:977: error: ‘AutoStride’ was not declared in this scope
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:978: error: ‘AutoStride’ was not declared in this scope
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:979: error: ‘AutoStride’ was not declared in this scope
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:1028: error: ‘ptrdiff_t’ has not been declared
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:1047: error: ‘ptrdiff_t’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:1028: error: ‘AutoStride’ was not declared in this scope
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:1116: error: ‘ContextRcPtr’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:1119: error: ‘ContextRcPtr’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/export/OpenColorIO/OpenColorIO.h:1175: error: expected initializer before ‘&’ token
+In file included from /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/AllocationOp.h:35,
+                 from /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/AllocationOp.cpp:29:
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/Op.h:43: error: ISO C++ forbids declaration of ‘vector’ with no type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/Op.h:43: error: invalid use of ‘::’
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/Op.h:43: error: expected ‘;’ before ‘<’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/Op.h:49: error: ‘string’ in namespace ‘std’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/Op.h:53: error: ‘std::tr1’ has not been declared
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/Op.h:53: error: expected initializer before ‘<’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/Op.h:54: error: expected initializer before ‘<’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/Op.h:56: error: ‘string’ in namespace ‘std’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/Op.h:57: error: expected ‘,’ or ‘...’ before ‘&’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/Op.h:57: error: ISO C++ forbids declaration of ‘OpRcPtrVec’ with no type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/Op.h:59: error: variable or field ‘FinalizeOpVec’ declared void
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/Op.h:59: error: ‘OpRcPtrVec’ was not declared in this scope
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/Op.h:59: error: ‘opVec’ was not declared in this scope
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/Op.h:66: error: ‘OpRcPtr’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/Op.h:70: error: ‘string’ in namespace ‘std’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/Op.h:74: error: ‘string’ in namespace ‘std’ does not name a type
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/Op.h:102: error: ‘std::ostream’ has not been declared
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/Op.h:103: error: expected unqualified-id before ‘&’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/Op.h:103: error: expected ‘,’ or ‘...’ before ‘&’ token
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/Op.h:114: error: expected constructor, destructor, or type conversion before ‘&’ token
+In file included from /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/AllocationOp.cpp:29:
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/AllocationOp.h:39: error: variable or field ‘CreateAllocationOps’ declared void
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/AllocationOp.h:39: error: ‘OpRcPtrVec’ was not declared in this scope
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/AllocationOp.h:39: error: ‘ops’ was not declared in this scope
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/AllocationOp.h:40: error: expected primary-expression before ‘const’
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/AllocationOp.h:41: error: expected primary-expression before ‘dir’
+In file included from /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/AllocationOp.cpp:30:
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/LogOps.h:45: error: variable or field ‘CreateLog2Op’ declared void
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/LogOps.h:45: error: ‘OpRcPtrVec’ was not declared in this scope
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/LogOps.h:45: error: ‘ops’ was not declared in this scope
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/LogOps.h:46: error: expected primary-expression before ‘direction’
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/LogOps.h:53: error: variable or field ‘CreateLogOp’ declared void
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/LogOps.h:53: error: ‘OpRcPtrVec’ was not declared in this scope
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/LogOps.h:53: error: ‘ops’ was not declared in this scope
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/LogOps.h:54: error: expected primary-expression before ‘const’
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/LogOps.h:55: error: expected primary-expression before ‘const’
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/LogOps.h:56: error: expected primary-expression before ‘const’
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/LogOps.h:57: error: expected primary-expression before ‘const’
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/LogOps.h:58: error: expected primary-expression before ‘const’
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/LogOps.h:59: error: expected primary-expression before ‘direction’
+In file included from /tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/AllocationOp.cpp:31:
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/MatrixOps.h:45: error: variable or field ‘CreateScaleOp’ declared void
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/MatrixOps.h:45: error: ‘OpRcPtrVec’ was not declared in this scope
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/MatrixOps.h:45: error: ‘ops’ was not declared in this scope
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/MatrixOps.h:46: error: expected primary-expression before ‘const’
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/MatrixOps.h:47: error: expected primary-expression before ‘direction’
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/MatrixOps.h:49: error: variable or field ‘CreateMatrixOp’ declared void
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/MatrixOps.h:49: error: ‘OpRcPtrVec’ was not declared in this scope
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/MatrixOps.h:49: error: ‘ops’ was not declared in this scope
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/MatrixOps.h:50: error: expected primary-expression before ‘const’
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/MatrixOps.h:51: error: expected primary-expression before ‘direction’
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/MatrixOps.h:53: error: variable or field ‘CreateOffsetOp’ declared void
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/MatrixOps.h:53: error: ‘OpRcPtrVec’ was not declared in this scope
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/MatrixOps.h:53: error: ‘ops’ was not declared in this scope
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/MatrixOps.h:54: error: expected primary-expression before ‘const’
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/MatrixOps.h:55: error: expected primary-expression before ‘direction’
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/MatrixOps.h:57: error: variable or field ‘CreateMatrixOffsetOp’ declared void
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/MatrixOps.h:57: error: ‘OpRcPtrVec’ was not declared in this scope
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/MatrixOps.h:57: error: ‘ops’ was not declared in this scope
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/MatrixOps.h:58: error: expected primary-expression before ‘const’
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/MatrixOps.h:58: error: expected primary-expression before ‘const’
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/MatrixOps.h:59: error: expected primary-expression before ‘direction’
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/MatrixOps.h:61: error: variable or field ‘CreateScaleOffsetOp’ declared void
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/MatrixOps.h:61: error: ‘OpRcPtrVec’ was not declared in this scope
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/MatrixOps.h:61: error: ‘ops’ was not declared in this scope
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/MatrixOps.h:62: error: expected primary-expression before ‘const’
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/MatrixOps.h:62: error: expected primary-expression before ‘const’
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/MatrixOps.h:63: error: expected primary-expression before ‘direction’
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/MatrixOps.h:65: error: variable or field ‘CreateFitOp’ declared void
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/MatrixOps.h:65: error: ‘OpRcPtrVec’ was not declared in this scope
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/MatrixOps.h:65: error: ‘ops’ was not declared in this scope
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/MatrixOps.h:66: error: expected primary-expression before ‘const’
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/MatrixOps.h:66: error: expected primary-expression before ‘const’
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/MatrixOps.h:67: error: expected primary-expression before ‘const’
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/MatrixOps.h:67: error: expected primary-expression before ‘const’
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/MatrixOps.h:68: error: expected primary-expression before ‘direction’
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/MatrixOps.h:70: error: variable or field ‘CreateSaturationOp’ declared void
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/MatrixOps.h:70: error: ‘OpRcPtrVec’ was not declared in this scope
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/MatrixOps.h:70: error: ‘ops’ was not declared in this scope
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/MatrixOps.h:71: error: expected primary-expression before ‘float’
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/MatrixOps.h:72: error: expected primary-expression before ‘const’
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/MatrixOps.h:73: error: expected primary-expression before ‘direction’
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/AllocationOp.cpp:39: error: variable or field ‘CreateAllocationOps’ declared void
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/AllocationOp.cpp:39: error: ‘OpRcPtrVec’ was not declared in this scope
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/AllocationOp.cpp:39: error: ‘ops’ was not declared in this scope
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/AllocationOp.cpp:40: error: expected primary-expression before ‘const’
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/AllocationOp.cpp:41: error: expected primary-expression before ‘dir’
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/AllocationOp.cpp:128: error: expected `}' at end of input
+/tmp/homebrew-opencolorio-1.0.4-9KeE/imageworks-OpenColorIO-12fb440/src/core/AllocationOp.cpp:128: error: expected `}' at end of input
+make[2]: *** [src/core/CMakeFiles/OpenColorIO.dir/AllocationOp.cpp.o] Error 1
+make[1]: *** [src/core/CMakeFiles/OpenColorIO.dir/all] Error 2
+make: *** [all] Error 2
