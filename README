@@ -5,3 +5,8 @@ to a non-existent path gets into CXXFLAGS as
 
 breaking compile with llvm-g++ because it can't find /usr/include/c++
 
+Evidence of this happening in the wild is on line 318
+
+https://github.com/2bits/hello-1.0/blob/master/error.txt#L318
+
+
