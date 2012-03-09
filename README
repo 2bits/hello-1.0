@@ -1,0 +1,7 @@
+Testing cmake+lion+clt+cpp whether cmake setting CMAKE_OSX_SDKROOT
+to a non-existent path gets into CXXFLAGS as 
+
+  -isysroot /SDKs/MacOSX10.7.sdk
+
+breaking compile with llvm-g++ because it can't find /usr/include/c++
+
